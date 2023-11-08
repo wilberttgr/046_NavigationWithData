@@ -1,4 +1,3 @@
-@file:OptIn (ExperimentalMaterial3Api::class)
 package com.example.esjumbo
 import androidx.compose.foundation.layout. Arrangement
 import androidx.compose.foundation.layout.Column
@@ -30,6 +29,7 @@ import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
 
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun HalamanSatu(
     pilihanRasa: List<String>,
